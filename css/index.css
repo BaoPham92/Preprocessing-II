@@ -174,11 +174,15 @@ body nav {
   justify-content: space-around;
   align-items: center;
   align-content: unset;
-  width: 80%;
+  width: 100%;
   margin: 0 auto;
+  border-bottom: 1px dashed grey;
+}
+body nav * {
+  padding: 1rem 0.5rem;
 }
 body nav h1 {
-  width: 65%;
+  width: 50%;
 }
 body nav ul {
   display: flex;
@@ -186,10 +190,10 @@ body nav ul {
   justify-content: space-evenly;
   align-items: unset;
   align-content: unset;
-  width: 35%;
+  width: 30%;
 }
 body nav ul li {
-  font-size: 1.5rem;
+  font-size: 1.75rem;
 }
 .footer {
   width: 100%;

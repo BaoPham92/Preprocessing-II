@@ -3,19 +3,24 @@
 body nav {
     .flex(row, nowrap, space-around, center);
     
-    width: 80%;
+    width: 100%;
     margin: 0 auto;
+    border-bottom: 1px dashed grey;
+
+    * {
+        padding: 1rem 0.5rem;
+    }
 
     h1 {
-        width: 65%;
+        width: 50%;
     }
 
     ul {
         .flex(row, nowrap, space-evenly);
-        width: 35%;
+        width: 30%;
 
         li {
-            font-size: 1.5rem;
+            font-size: @font_med;
         }
     }
 }
