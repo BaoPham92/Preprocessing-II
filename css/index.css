@@ -256,3 +256,16 @@ body nav ul li {
   width: 30%;
   margin-bottom: 30px;
 }
+.home .content-pick .destination .btn {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+  align-items: center;
+  align-content: unset;
+  font-size: 1.75rem;
+  background: #17A2B8;
+  color: #FFFFFF;
+  border-radius: 0.6rem;
+  padding: 0.8rem 0;
+  width: 65%;
+}
