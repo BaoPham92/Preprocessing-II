@@ -1,1 +1,56 @@
 // Navigation Styles here
+
+body nav {
+    .flex(row, nowrap, center, center);
+
+    width: 100%;
+    margin: 0 auto;
+    border-bottom: 1px dashed grey;
+
+    * {
+        padding: 1rem 0.5rem;
+    }
+
+    h1 {
+        width: 25%;
+    }
+
+    ul {
+        .flex(row, nowrap, space-evenly);
+        width: 25%;
+
+        li {
+            font-size: @font_med;
+        }
+    }
+}
+
+// MEDIA
+// QUERIES
+@media @mobile {
+    body nav {
+        .flex(column, nowrap, center, center);
+
+        width: 100%;
+        margin: 0 auto;
+        border-bottom: 1px dashed grey;
+        text-align: center;
+
+        * {
+            padding: 1rem 0.5rem;
+        }
+
+        h1 {
+            width: 100%;
+        }
+
+        ul {
+            .flex(row, nowrap, space-evenly);
+            width: 100%;
+
+            li {
+                font-size: @font_med;
+            }
+        }
+    }
+}
